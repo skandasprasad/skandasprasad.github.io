@@ -1,14 +1,11 @@
 cv:
   name: Skanda Shreesha Prasad
-  label: M.S. Computer Science Student
+  headline: M.S. Computer Science Student
   email: skandasprasad@outlook.com
   phone: "+1 201 241 9666"
   location: New York, NY
   website: https://skandasprasad.github.io/
-  image: ""
-  summary: >
-    M.S. Computer Science student at NYU Courant working on representation learning, world models, computer vision,
-    multimodal learning, and uncertainty-aware machine learning.
+  photo:
 
   social_networks:
     - network: GitHub
@@ -25,15 +22,16 @@ cv:
       - institution: New York University - Courant Institute of Mathematical Sciences
         location: New York, NY
         area: Computer Science
-        studyType: M.S.
+        degree: M.S.
         start_date: "2025-07"
         end_date: present
-        courses: Deep Learning, Computer Vision, Bayesian Machine Learning, Fundamental Algorithms, Operating Systems
+        highlights:
+          - "Coursework: Deep Learning, Computer Vision, Bayesian Machine Learning, Fundamental Algorithms, Operating Systems"
 
       - institution: PES University
         location: Bengaluru, India
         area: Computer Science and Engineering
-        studyType: B.Tech.
+        degree: B.Tech.
         start_date: "2021-09"
         end_date: "2025-05"
 
@@ -126,23 +124,23 @@ cv:
       - title: "Enhancing Multi-Agent LLM Frameworks: A Context-Aware Approach for Securing Dynamic Agent Collaboration"
         authors:
           - Skanda Shreesha Prasad
-        publisher: ICAART
-        releaseDate: "2025"
+        journal: ICAART
+        date: "2025"
         summary: Conference publication at ICAART 2025.
 
       - title: Indian Patent Applications 202541105316, 202541093849, and 202641023935
         authors:
           - Bosch Research
-        publisher: The Bosch Group
-        releaseDate: "2025"
+        journal: The Bosch Group
+        date: "2025"
         summary: Patent applications from research on weather-resilient ADAS perception.
 
     Skills:
-      - name: Programming
-        keywords: Python, C, Java, SQL, MATLAB, R
+      - label: Programming
+        details: Python, C, Java, SQL, MATLAB, R
 
-      - name: ML / Research
-        keywords: PyTorch, JAX, Computer Vision, Representation Learning, World Models, JEPA, LLMs, Gaussian Processes
+      - label: ML / Research
+        details: PyTorch, JAX, Computer Vision, Representation Learning, World Models, JEPA, LLMs, Gaussian Processes
 
-      - name: Tools
-        keywords: AWS, Docker, Kubernetes, Slurm
+      - label: Tools
+        details: AWS, Docker, Kubernetes, Slurm
