@@ -1,189 +1,148 @@
 cv:
-  name: Albert Einstein
-  label: Scientist
-  email: einstein@example.com
-  location: Princeton, NJ
+  name: Skanda Shreesha Prasad
+  label: M.S. Computer Science Student
+  email: skandasprasad@outlook.com
+  phone: "+1 201 241 9666"
+  location: New York, NY
+  website: https://skandasprasad.github.io/
   image: ""
-  summary: A German-born theoretical physicist, widely ranked among the greatest and most influential scientists of all time
+  summary: >
+    M.S. Computer Science student at NYU Courant working on representation learning, world models, computer vision,
+    multimodal learning, and uncertainty-aware machine learning.
 
   social_networks:
-    - network: X
-      username: AlbertEinstein
     - network: GitHub
-      username: example
+      username: skandasprasad
     - network: LinkedIn
-      username: example
-
-  address:
-    street: 2712 Broadway St
-    city: San Francisco
-    region: California
-    postalCode: CA 94115
-    countryCode: US
+      username: skanda-prasad-809652240
+    - network: Google Scholar
+      username: aHjEEl0AAAAJ
+    - network: ORCID
+      username: 0009-0002-9448-2292
 
   sections:
     Education:
-      - institution: University of Zurich
-        location: Zurich, Switzerland
-        url: https://www.uzh.ch/
-        area: Physics
-        studyType: PhD
-        start_date: 1900
-        end_date: 1905
-        score: ""
-        courses: "Theory of Relativity"
-        highlights:
-          - Description 1.
-          - Description 2.
+      - institution: New York University - Courant Institute of Mathematical Sciences
+        location: New York, NY
+        area: Computer Science
+        studyType: M.S.
+        start_date: "2025-07"
+        end_date: present
+        courses: Deep Learning, Computer Vision, Bayesian Machine Learning, Fundamental Algorithms, Operating Systems
 
-      - institution: Eidgenössische Technische Hochschule
-        location: Zurich, Switzerland
-        area: Physics
-        studyType: Federal teaching diploma
-        start_date: 1896
-        end_date: 1900
+      - institution: PES University
+        location: Bengaluru, India
+        area: Computer Science and Engineering
+        studyType: B.Tech.
+        start_date: "2021-09"
+        end_date: "2025-05"
+
+    Research Experience:
+      - company: New York University
+        position: Hierarchical Planning, H-JEPA and World Models
+        location: New York, NY
+        start_date: "2026-03"
+        end_date: present
+        summary: Prof. Yann LeCun and Prof. Jean Ponce
         highlights:
-          - Description 1.
-          - Description 2.
+          - Researching hierarchical JEPA world models for hierarchical planning and reasoning.
+          - Developing dynamic temporal abstraction methods that learn when low-level transitions should be grouped into higher-level states and actions instead of relying on fixed-stride hierarchies.
+          - Evaluating hierarchical latent planning on robotic manipulation environments.
+
+      - company: New York University
+        position: Multiscale JEPA for Self-Supervised Active Matter Representation Learning
+        location: New York, NY
+        start_date: "2026-04"
+        end_date: "2026-04"
+        summary: Prof. Yann LeCun and Prof. Alfredo Canziani
+        highlights:
+          - Built global, spatial, and multiscale JEPA architectures for self-supervised representation learning on active-matter simulations under a 100M-parameter constraint.
+          - Evaluated frozen representations using linear and KNN probes; placed second on the course leaderboard and presented the project as an Outstanding Project.
+
+      - company: New York University
+        position: Multimodal Protein Retrieval from Sequences and Cryo-EM Density Maps
+        location: New York, NY
+        start_date: "2026-02"
+        end_date: present
+        summary: Prof. David Fouhey
+        highlights:
+          - Developing a multimodal representation framework that jointly embeds amino-acid sequences and 3D cryo-EM density maps into a shared latent space.
+          - Using a JEPA-style cross-modal predictive objective for sequence-structure retrieval with weakly aligned biological data.
+
+      - company: New York University
+        position: Active Spectral Learning for Non-Stationary Gaussian Processes
+        location: New York, NY
+        start_date: "2025-09"
+        end_date: "2025-12"
+        summary: Prof. Andrew Gordon Wilson
+        highlights:
+          - Built an active-learning pipeline for Gaussian Processes with Generalized Spectral Mixture kernels, using ensemble disagreement to guide sampling in non-stationary environments.
+          - Compared Monte Carlo epistemic-variance acquisition with BALD and other baselines, analyzing structural uncertainty, sampling bias, and predictive performance.
+
+      - company: PES University
+        position: Code-Mixed LLM for Natural Language Generation and Translation
+        location: Bengaluru, India
+        start_date: "2023-10"
+        end_date: "2025-01"
+        summary: Prof. Dr. Uma D
+        highlights:
+          - Built an English-to-Hindi-English code-mixed translation system and developed English-Kannada code-mixing data for low-resource language modeling in a university-funded project.
 
     Experience:
-      - company: Institute for Advanced Study, Princeton University
-        position: Professor of Theoretical Physics
-        location: Princeton University, NJ
-        start_date: 1933
-        end_date: 1955
-        summary: Teaching at Palmer Physical Laboratory (now 302 Frist Campus Center). While not a professor at Princeton, I associated with the physics professors and continued to give lectures on campus.
+      - company: The Bosch Group
+        position: AI Research Intern
+        location: Bengaluru, India
+        start_date: "2025-03"
+        end_date: "2025-07"
         highlights:
-          - Relativity
-          - Description 2.
+          - Researched weather-resilient ADAS perception for rain, fog, and low-visibility conditions; work resulted in three Indian patent applications.
 
-      - company: California Institute of Technology
-        position: Visiting Professor
-        location: Pasadena, California, US
-        start_date: 1933
-        end_date: 1933
+      - company: The Bosch Group
+        position: Generative AI Intern
+        location: Bengaluru, India
+        start_date: "2024-06"
+        end_date: "2024-08"
         highlights:
-          - Description 1.
-          - Description 2.
+          - Built a generative-AI-powered chatbot for an upcoming BGSW Data Accelerator system, including metadata management and information retrieval.
 
-      - company: Kaiser Wilhelm Institute for Physics
-        position: Director
-        location: Berlin, Germany
-        start_date: 1917
-        end_date: 1933
-
-      - company: Karl-Ferdinand University
-        position: Professor of Theoretical Physics
-        location: Prague, Czechoslovakia
-        start_date: 1911
-        end_date: 1917
-
-      - company: University of Zurich
-        position: Associate Professor of Theoretical Physics
-        location: Zurich, Switzerland
-        start_date: 1909
-        end_date: 1911
-
-    Volunteer:
-      - company: People's Climate March
-        position: Lead Organizer
-        location: Zurich, Switzerland
-        start_date: 2014-04-01
-        end_date: 2015-07-01
-        summary: Lead organizer for the New York City branch of the People's Climate March, the largest climate march in history.
+      - company: The Bosch Group
+        position: Machine Learning and Computer Vision Intern
+        location: Bengaluru, India
+        start_date: "2023-06"
+        end_date: "2023-07"
         highlights:
-          - "Awarded 'Climate Hero' award by Greenpeace for my efforts organizing the march."
-          - "Men of the year 2014 by Time magazine"
+          - Developed computer-vision models for diesel-engine production-line automation and microscopic-part classification.
 
-    Awards:
-      - title: Nobel Prize in Physics
-        authors:
-          - "Royal Swedish Academy of Sciences"
-        date: 1921-11-01
-        awarder: Royal Swedish Academy of Sciences
-        url: https://www.nobelprize.org/prizes/physics/1921/einstein/biographical/
-        summary: The Nobel Prizes are five separate prizes that, according to Alfred Nobel's will of 1895, are awarded to 'those who, during the preceding year, have conferred the greatest benefit to humankind.'
+      - company: PES University - Department of Computer Science and Engineering
+        position: Teaching Assistant
+        location: Bengaluru, India
+        start_date: "2024-07"
+        end_date: "2025-05"
+        highlights:
+          - Teaching Assistant for Generative AI and its Applications and Mathematics for Computer Science Engineers.
+          - Prepared slide decks and coding assignments, guided course projects, and evaluated assignments.
 
-      - title: Max Planck Medal
+    Publications and Patents:
+      - title: "Enhancing Multi-Agent LLM Frameworks: A Context-Aware Approach for Securing Dynamic Agent Collaboration"
         authors:
-          - "German Physical Society"
-        date: 2029
-        awarder: German Physical Society
-        summary: Awarded for outstanding scientific achievement
+          - Skanda Shreesha Prasad
+        publisher: ICAART
+        releaseDate: "2025"
+        summary: Conference publication at ICAART 2025.
 
-    Publications:
-      - title: Zur Elektrodynamik bewegter Körper
+      - title: Indian Patent Applications 202541105316, 202541093849, and 202641023935
         authors:
-          - Albert Einstein
-        publisher: Annalen der Physik
-        releaseDate: 1905-06-30
-        url: https://en.wikisource.org/wiki/Translation:On_the_Electrodynamics_of_Moving_Bodies
-        summary: It concerned an interpretation of the Michelson–Morley experiment and the properties of light and time. Special relativity incorporates the principle that the speed of light is the same for all inertial observers regardless of the state of motion of the source.
-
-      - title: Über einen die Erzeugung und Verwandlung des Lichtes betreffenden heuristischen Gesichtspunkt
-        authors:
-          - Albert Einstein
-        publisher: Annalen der Physik
-        releaseDate: 1905-03-18
-        url: https://de.wikisource.org/wiki/Über_einen_die_Erzeugung_und_Verwandlung_des_Lichtes_betreffenden_heuristischen_Gesichtspunkt
-        summary: In the second paper, he applied the quantum theory to light to explain the photoelectric effect. In particular, he used the idea of light quanta (photons) to explain experimental results, but stressed the importance of the experimental results. The importance of his work on the photoelectric effect earned him the Nobel Prize in Physics in 1921.
-
-      - title: Die Grundlage der allgemeinen Relativitätstheorie
-        authors:
-          - Albert Einstein
-        publisher: Annalen der Physik
-        releaseDate: 1916-03-20
-        url: https://de.wikisource.org/wiki/Die_Grundlage_der_allgemeinen_Relativitätstheorie
-        summary: The publication of the theory of general relativity made him internationally famous. He was professor of physics at the universities of Zurich (1909–1911) and Prague (1911–1912), before he returned to ETH Zurich (1912–1914).
+          - Bosch Research
+        publisher: The Bosch Group
+        releaseDate: "2025"
+        summary: Patent applications from research on weather-resilient ADAS perception.
 
     Skills:
-      - name: Physics
-        level: Master
-        icon: fa-solid fa-hashtag
-        keywords: "Quantum Mechanics, Quantum Computing, Quantum Information, Quantum Cryptography, Quantum Communication, Quantum Teleportation"
+      - name: Programming
+        keywords: Python, C, Java, SQL, MATLAB, R
 
-    Languages:
-      - name: German
-        summary: "Native speaker"
+      - name: ML / Research
+        keywords: PyTorch, JAX, Computer Vision, Representation Learning, World Models, JEPA, LLMs, Gaussian Processes
 
-      - name: English
-        summary: "Fluent"
-
-    Interests:
-      - name: Physics
-        icon: fa-solid fa-tag
-        keywords: "Quantum Mechanics, Quantum Computing, Quantum Information, Quantum Cryptography, Quantum Communication, Quantum Teleportation"
-
-    Certificates:
-      - name: Machine Learning
-        date: 2018-01-01
-        issuer: Stanford University
-        icon: fa-solid fa-location-dot
-
-      - name: Quantum Computing
-        date: 2018-01-01
-        issuer: Stanford University
-        icon: fa-solid fa-tag
-
-      - name: Quantum Information
-        date: 2018-01-01
-        issuer: Stanford University
-        icon: fa-solid fa-envelope
-
-    Projects:
-      - name: Quantum Computing
-        summary: Quantum computing is the use of quantum-mechanical phenomena such as superposition and entanglement to perform computation. Computers that perform quantum computations are known as quantum computers.
-        highlights:
-          - Quantum Teleportation
-          - Quantum Cryptography
-        start_date: 2018-01-01
-        end_date: 2018-01-01
-
-    References:
-      - name: Professor John Doe
-        icon: fa-solid fa-laptop
-        reference: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam condimentum, diam quis convallis euismod, arcu mi ullamcorper lorem, a vestibulum nunc magna at sem. Sed in risus ac felis varius blandit.
-
-      - name: Professor Jane Smith
-        icon: fa-solid fa-thumbtack
-        reference: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam condimentum, diam quis convallis euismod, arcu mi ullamcorper lorem, a vestibulum nunc magna at sem. Sed in risus ac felis varius blandit.
+      - name: Tools
+        keywords: AWS, Docker, Kubernetes, Slurm
