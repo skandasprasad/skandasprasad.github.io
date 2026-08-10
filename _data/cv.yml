@@ -36,55 +36,11 @@ cv:
         end_date: "2025-05"
 
     Research Experience:
-      - company: New York University
-        position: Hierarchical Planning, H-JEPA and World Models
-        location: New York, NY
-        start_date: "2026-03"
-        end_date: present
-        summary: Prof. Yann LeCun and Prof. Jean Ponce
-        highlights:
-          - Researching hierarchical JEPA world models for hierarchical planning and reasoning.
-          - Developing dynamic temporal abstraction methods that learn when low-level transitions should be grouped into higher-level states and actions instead of relying on fixed-stride hierarchies.
-          - Evaluating hierarchical latent planning on robotic manipulation environments.
-
-      - company: New York University
-        position: Multiscale JEPA for Self-Supervised Active Matter Representation Learning
-        location: New York, NY
-        start_date: "2026-04"
-        end_date: "2026-04"
-        summary: Prof. Yann LeCun and Prof. Alfredo Canziani
-        highlights:
-          - Built global, spatial, and multiscale JEPA architectures for self-supervised representation learning on active-matter simulations under a 100M-parameter constraint.
-          - Evaluated frozen representations using linear and KNN probes; placed second on the course leaderboard and presented the project as an Outstanding Project.
-
-      - company: New York University
-        position: Multimodal Protein Retrieval from Sequences and Cryo-EM Density Maps
-        location: New York, NY
-        start_date: "2026-02"
-        end_date: present
-        summary: Prof. David Fouhey
-        highlights:
-          - Developing a multimodal representation framework that jointly embeds amino-acid sequences and 3D cryo-EM density maps into a shared latent space.
-          - Using a JEPA-style cross-modal predictive objective for sequence-structure retrieval with weakly aligned biological data.
-
-      - company: New York University
-        position: Active Spectral Learning for Non-Stationary Gaussian Processes
-        location: New York, NY
-        start_date: "2025-09"
-        end_date: "2025-12"
-        summary: Prof. Andrew Gordon Wilson
-        highlights:
-          - Built an active-learning pipeline for Gaussian Processes with Generalized Spectral Mixture kernels, using ensemble disagreement to guide sampling in non-stationary environments.
-          - Compared Monte Carlo epistemic-variance acquisition with BALD and other baselines, analyzing structural uncertainty, sampling bias, and predictive performance.
-
-      - company: PES University
-        position: Code-Mixed LLM for Natural Language Generation and Translation
-        location: Bengaluru, India
-        start_date: "2023-10"
-        end_date: "2025-01"
-        summary: Prof. Dr. Uma D
-        highlights:
-          - Built an English-to-Hindi-English code-mixed translation system and developed English-Kannada code-mixing data for low-resource language modeling in a university-funded project.
+      - bullet: "**Hierarchical Planning, H-JEPA and World Models**, New York University, Prof. Yann LeCun and Prof. Jean Ponce, Mar 2026 - Present. Researching hierarchical JEPA world models for planning and reasoning, developing dynamic temporal abstraction methods, and evaluating hierarchical latent planning on robotic manipulation environments."
+      - bullet: "**Multiscale JEPA for Self-Supervised Active Matter Representation Learning**, New York University, Prof. Yann LeCun and Prof. Alfredo Canziani, Apr 2026. Built global, spatial, and multiscale JEPA architectures under a 100M-parameter constraint; placed second on the course leaderboard and presented the project as an Outstanding Project."
+      - bullet: "**Multimodal Protein Retrieval from Sequences and Cryo-EM Density Maps**, New York University, Prof. David Fouhey, Feb 2026 - Present. Developing joint embeddings for amino-acid sequences and 3D cryo-EM density maps using a JEPA-style cross-modal predictive objective."
+      - bullet: "**Active Spectral Learning for Non-Stationary Gaussian Processes**, New York University, Prof. Andrew Gordon Wilson, Sep 2025 - Dec 2025. Built an active-learning pipeline with Generalized Spectral Mixture kernels and compared epistemic-variance acquisition with BALD and other baselines."
+      - bullet: "**Code-Mixed LLM for Natural Language Generation and Translation**, PES University, Prof. Dr. Uma D, Oct 2023 - Jan 2025. Built an English-to-Hindi-English code-mixed translation system and developed English-Kannada code-mixing data for low-resource language modeling."
 
     Experience:
       - company: The Bosch Group
@@ -121,26 +77,13 @@ cv:
           - Prepared slide decks and coding assignments, guided course projects, and evaluated assignments.
 
     Publications and Patents:
-      - title: "Enhancing Multi-Agent LLM Frameworks: A Context-Aware Approach for Securing Dynamic Agent Collaboration"
-        authors:
-          - Skanda Shreesha Prasad
-        journal: ICAART
-        date: "2025"
-        summary: Conference publication at ICAART 2025.
+      - bullet: '**ICAART 2025:** "Enhancing Multi-Agent LLM Frameworks: A Context-Aware Approach for Securing Dynamic Agent Collaboration."'
+      - bullet: "**Patent Applications:** 202541105316, 202541093849, and 202641023935, from Bosch research on weather-resilient ADAS perception."
 
-      - title: Indian Patent Applications 202541105316, 202541093849, and 202641023935
-        authors:
-          - Bosch Research
-        journal: The Bosch Group
-        date: "2025"
-        summary: Patent applications from research on weather-resilient ADAS perception.
-
-    Skills:
+    Technical Skills:
       - label: Programming
         details: Python, C, Java, SQL, MATLAB, R
-
       - label: ML / Research
         details: PyTorch, JAX, Computer Vision, Representation Learning, World Models, JEPA, LLMs, Gaussian Processes
-
       - label: Tools
         details: AWS, Docker, Kubernetes, Slurm
