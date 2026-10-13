@@ -12,4 +12,4 @@ Research project at New York University with Prof. David Fouhey.
 - Using a JEPA-style cross-modal predictive objective for sequence-structure retrieval.
 - Targeting weakly aligned biological data where exact sequence-structure supervision is limited.
 
-Status: in progress.
+Status: preprint available on [bioRxiv](https://www.biorxiv.org/content/10.64898/2026.09.02.749033.abstract).

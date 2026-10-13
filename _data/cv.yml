@@ -36,7 +36,6 @@ cv:
         end_date: "2025-05"
 
     Research Experience:
-      - bullet: "**Hierarchical Planning, H-JEPA and World Models**, New York University, Prof. Yann LeCun and Prof. Jean Ponce, Mar 2026 - Present. Researching hierarchical JEPA world models for planning and reasoning, developing dynamic temporal abstraction methods, and evaluating hierarchical latent planning on robotic manipulation environments."
       - bullet: "**Multiscale JEPA for Self-Supervised Active Matter Representation Learning**, New York University, Prof. Yann LeCun and Prof. Alfredo Canziani, Apr 2026. Built global, spatial, and multiscale JEPA architectures under a 100M-parameter constraint; placed second on the course leaderboard and presented the project as an Outstanding Project."
       - bullet: "**Multimodal Protein Retrieval from Sequences and Cryo-EM Density Maps**, New York University, Prof. David Fouhey, Feb 2026 - Present. Developing joint embeddings for amino-acid sequences and 3D cryo-EM density maps using a JEPA-style cross-modal predictive objective."
       - bullet: "**Active Spectral Learning for Non-Stationary Gaussian Processes**, New York University, Prof. Andrew Gordon Wilson, Sep 2025 - Dec 2025. Built an active-learning pipeline with Generalized Spectral Mixture kernels and compared epistemic-variance acquisition with BALD and other baselines."

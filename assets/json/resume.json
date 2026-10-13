@@ -105,12 +105,6 @@
   ],
   "projects": [
     {
-      "name": "Hierarchical Planning, H-JEPA and World Models",
-      "startDate": "2026-03",
-      "endDate": "Present",
-      "summary": "Hierarchical JEPA world models for planning and reasoning, including dynamic temporal abstraction and latent planning evaluation in robotic manipulation environments."
-    },
-    {
       "name": "Multimodal Protein Retrieval from Sequences and Cryo-EM Density Maps",
       "startDate": "2026-02",
       "endDate": "Present",
